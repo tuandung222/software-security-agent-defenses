@@ -99,7 +99,7 @@ $$
    Bản ghi $\mathcal{O}_t$ được định dạng nghiêm ngặt bằng JSON Schema, chỉ chứa các trường vị trí và nhãn văn bản:
 
 $$
-\mathcal{O}_t = \left\{ \text{"element"}: \text{"Button"}, \text{"text"}: \text{"Pay Now"}, \text{"bbox"}: [x_1, y_1, x_2, y_2] \right\} \qquad (3)
+\mathcal{O}_t = \left\lbrace \text{"element"}: \text{"Button"}, \text{"text"}: \text{"Pay Now"}, \text{"bbox"}: [x_1, y_1, x_2, y_2] \right\rbrace \qquad (3)
 $$
 
 3. **Pha 3: Kiểm soát & Thẩm định bởi TCB:**
